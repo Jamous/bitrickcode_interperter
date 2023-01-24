@@ -21,8 +21,7 @@ import sys
 #Create dictionaries
 english_to_bitrickcode = { 'a':'IX', 'b':'XIII', 'c':'XIXI', 'd':'XII', 'e':'I', 'f':'IIXI', 'g':'XXI', 'h':'IIII', 'i':'II', 'j':'IXXX', 'k':'XIX', 'l':'IXII', 'm':'XX', 'n':'XI', 'o':'XXX', 'p':'IXXI', 'q':'XXIX', 'r':'IXI', 's':'III', 't':'X', 'u':'IIX', 'v':'IIIX', 'w':'IXX', 'x':'XIIX', 'y':'XIXX', 'z':'XXII',
                     '1':'IXXXX', '2':'IIXXX', '3':'IIIXX', '4':'IIIIX', '5':'IIIII', '6':'XIIII', '7':'XXIII', '8':'XXXII', '9':'XXXXI', '0':'XXXXX', 
-                    ', ':'XXIIXX', 'I':'IXIXIX', '?':'IIXXII', '/':'XIIXI', 'X':'XIIIIX', '(':'XIXXI', ')':'XIXXIX',
-                    ' ': ')',
+                    ', ':'XXIIXX', 'I':'IXIXIX', '?':'IIXXII', '/':'XIIXI', 'X':'XIIIIX', '(':'XIXXI', ')':'XIXXIX', ' ': ')',
 }
 bitrickcode_to_english = dict([(value, key) for key, value in english_to_bitrickcode.items()])
 
