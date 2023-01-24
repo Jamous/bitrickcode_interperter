@@ -2,6 +2,7 @@ Bitrickcode interperter
 -----------------------
 Bitrickcode interperter by Jamous Bitrick
 Version 1.0, 1/24/2023
+
 English to Bitrickcode: 
 ```
 python ./bitrickcode_interperter.py I am Jamous
