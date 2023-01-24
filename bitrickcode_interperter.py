@@ -27,7 +27,7 @@ bitrickcode_to_english = dict([(value, key) for key, value in english_to_bitrick
 
 input_string = ""
 output_string = ""
-print(sys.argv)
+
 for element in sys.argv[1:]:
     input_string += element + " "
 
@@ -37,8 +37,8 @@ if input_string == "":
 
 #If bitrickcode, convert to english
 elif input_string[0:2] == "(:":
-  #Make input string upercase
-  input_string = input_string.upper()
+    #Make input string upercase
+    input_string = input_string.upper()
   
     while input_string != "" and input_string != " ":
         #Define and find word
