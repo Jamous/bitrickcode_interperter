@@ -9,7 +9,7 @@ python ./bitrickcode_interperter.py I am Jamous
 ```
 Bitrickcode to English example: 
 ```
-python .\bitrickcode_interperter.py "(:II:)(:IX:XX:)(:IXXX:IX:XX:XXX:IIX:III:)"
+python ./bitrickcode_interperter.py "(:II:)(:IX:XX:)(:IXXX:IX:XX:XXX:IIX:III:)"
 ```
 
 Quote from Eli
